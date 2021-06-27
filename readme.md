@@ -2,17 +2,21 @@
 
 Por Alan Badillo Salas (@dragonnomada)
 
-Gmail: [dragonnomada123@gmail.com](mailto://dragonnomada123@gmail.com)
+**Gmail** [dragonnomada123@gmail.com](mailto://dragonnomada123@gmail.com)
 
-Github: [github.com/dragonnomada](https://github.com/dragonnomada)
+**Github** [github.com/dragonnomada](https://github.com/dragonnomada)
 
-Medium: [dragonnomada.medium.com](https://dragonnomada.medium.com)
+**Medium** [dragonnomada.medium.com](https://dragonnomada.medium.com)
 
-Twitter: [twitter.com/dragonnomada123](https://twitter.com/dragonnomada123)
+**Twitter** [twitter.com/dragonnomada123](https://twitter.com/dragonnomada123)
 
 ## Introducción
 
-## Sugerencia de Curso
+En este curso aprenderemos a programar en Python. Comenzaremos por los conceptos fundamentales, para ir avanzando en temas más avanzados como la Graficación, Generación de Reportes y el uso de Bases de Datos, para finalmente llegar a la automatización y resolver alguno de los proyectos propuestos.
+
+Se propone una duración de 2 horas 30 minutos por sesión y se han agrupado los temas para que pedagógicamente puedan ser entendidos en cada sesión. El alumno deberá ser responsable de resolver los ejercicios propuestos y profundizar los recursos indicados en los enlaces sobre cada una de las notas.
+
+## Estructura del Curso
 
 ### Sesión 1
 
