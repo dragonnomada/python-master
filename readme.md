@@ -16,6 +16,10 @@ En este curso aprenderemos a programar en Python. Comenzaremos por los conceptos
 
 Se propone una duración de 2 horas 30 minutos por sesión y se han agrupado los temas para que pedagógicamente puedan ser entendidos en cada sesión. El alumno deberá ser responsable de resolver los ejercicios propuestos y profundizar los recursos indicados en los enlaces sobre cada una de las notas.
 
+## Instalación
+
+* [Instalación de Python](./notas/Instalaci%C3%B3n.md)
+
 ## Estructura del Curso
 
 ### Sesión 1
