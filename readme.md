@@ -10,6 +10,8 @@ Por Alan Badillo Salas (@dragonnomada)
 
 **Twitter** [twitter.com/dragonnomada123](https://twitter.com/dragonnomada123)
 
+**Repl** [https://replit.com/@DragonNomada](https://replit.com/@DragonNomada)
+
 ## Introducción
 
 En este curso aprenderemos a programar en Python. Comenzaremos por los conceptos fundamentales, para ir avanzando en temas más avanzados como la Graficación, Generación de Reportes y el uso de Bases de Datos, para finalmente llegar a la automatización y resolver alguno de los proyectos propuestos.
