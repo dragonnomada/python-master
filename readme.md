@@ -35,9 +35,13 @@ Se propone una duración de 2 horas 30 minutos por sesión y se han agrupado los
 * [Iteradores](./notas/3.%20Iteradores.md)
 * [Ciclos Condicionales](./notas/4.%20Ciclos%20Condicionales.md)
 
+### Sesión 3
+
+* [Funciones - Parte I](./notas/5.%20Funciones.md)
+
 ### Sesión 4
 
-* [Funciones](./notas/5.%20Funciones.md)
+* [Funciones - Parte II](./notas/5.%20Funciones.md)
 
 ### Sesión 5
 
