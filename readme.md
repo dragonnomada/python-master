@@ -41,13 +41,13 @@ Se propone una duración de 2 horas 30 minutos por sesión y se han agrupado los
 
 ### Sesión 4
 
-* [Funciones - Parte II](./notas/5.%20Funciones.md)
-
-### Sesión 5
-
 * [Listas](./notas/6.%20Listas.md)
 * [Tuplas](./notas/7.%20Tuplas.md)
 * [Diccionarios](./notas/8.%20Diccionarios.md)
+
+### Sesión 5
+
+* [Ejercicios](./notas/Ejercicios%20I.md)
 
 ### Sesión 6
 
