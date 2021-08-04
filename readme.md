@@ -18,6 +18,10 @@ En este curso aprenderemos a programar en Python. Comenzaremos por los conceptos
 
 Se propone una duración de 2 horas 30 minutos por sesión y se han agrupado los temas para que pedagógicamente puedan ser entendidos en cada sesión. El alumno deberá ser responsable de resolver los ejercicios propuestos y profundizar los recursos indicados en los enlaces sobre cada una de las notas.
 
+## AVISOS IMPORTANTES
+
+* [4 agosto 2021] - Se actualizaron las notas hasta la 18. Manipulación de Datos de Excel.
+
 ## Instalación
 
 * [Instalación de Python](./notas/Instalaci%C3%B3n.md)
