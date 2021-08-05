@@ -3,10 +3,10 @@
 from pymongo import MongoClient
 
 protocol = "mongodb+srv" # mongodb
-server = "cluster0.e5oc3.mongodb.net"
-user = "pyalumno"
-password = "py123"
-database = "python-master"
+server = "cluster0.e5oc3.mongodb.net" # localhost
+user = "pyalumno" # -
+password = "py123" # -
+database = "python-master" # -
 
 # 1. Abrir la conexión al cliente
 

@@ -14,6 +14,9 @@ cursor = client.cursor()
 
 result = cursor.execute("CREATE DATABASE python-master")
 
+client.commit()
+
 print(result)
+
 
 client.close()

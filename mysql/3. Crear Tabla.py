@@ -22,6 +22,8 @@ CREATE TABLE alumnos (
   PRIMARY KEY (id_alumno))
 """)
 
+client.commit()
+
 print(result)
 
 client.close()
