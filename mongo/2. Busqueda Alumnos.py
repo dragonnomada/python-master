@@ -2,18 +2,18 @@
 
 from pymongo import MongoClient
 
-protocol = "mongodb+srv" # mongodb
-server = "cluster0.e5oc3.mongodb.net" # localhost
-user = "pyalumno" # -
-password = "py123" # -
+protocol = "mongodb+srv" # mongodb+srv
+server = "cluster0.xxxxx.mongodb.net" # localhost
+user = "<usuario>" # -
+password = "<contraseña>" # -
 database = "python-master" # -
 
 # 1. Abrir la conexión al cliente
 
 # mongodb://localhost/python-master
 # MongoDB Atlas - https://cloud.mongodb.com
-# client = MongoClient("mongodb+srv://pyalumno:py123@cluster0.e5oc3.mongodb.net/python-master")
-client = MongoClient("{}://{}:{}@{}/{}".format(protocol, user, password, server, database))
+# client = MongoClient("{}://{}:{}@{}/{}".format(protocol, user, password, server, database))
+client = MongoClient("mongodb://localhost/python-master")
 
 # 2. Recuperar la base de datos de trabajo
 db = client["python-master"]
