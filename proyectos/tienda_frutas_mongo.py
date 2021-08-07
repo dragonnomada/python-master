@@ -1,20 +1,30 @@
+from pymongo import MongoClient
+
 # TODO: Crea un cliente de conexión a la base de datos de Mongo DB
+client = MongoClient("mongodb+srv://tienda:tienda123@cluster0.e5oc3.mongodb.net/tienda")
 
 # TODO: Recupera la base de datos `tienda`
+db = client["tienda"]
 
 # TODO: Recupera la colección `tienda.frutas`
+frutasCollection = db["frutas"]
 
 # TODO: Recupera la colección `tienda.ventas`
+ventasCollection = db["ventas"]
 
 def obtenerFrutas():
-    pass
+    # pass
     # TODO: Recorrer cada fruta de la colección `tienda.frutas`
     
     # TODO: hacer un yield sobre fruta["nombre"], fruta["precio"]
 
+    for fruta in frutasCollection.find():
+      yield fruta["nombre"], fruta["precio"]
+
 def agregarFruta(nombre, precio):
-    pass
+    # pass
     # TODO: Hacer un insert_one en la colección `tienda.frutas` con { "nombre": nombre, "precio": precio }
+    frutasCollection.insert_one({ "nombre": nombre, "precio": precio })
 
 def buscarFruta(nombre):
     # TODO: Recupera el documento con la fruta de nombre `nombre` en la colección `tienda.frutas`

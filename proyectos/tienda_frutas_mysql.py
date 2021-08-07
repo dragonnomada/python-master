@@ -1,27 +1,46 @@
+import mysql.connector as mysql
+
 # TODO: Crea un cliente de conexión a la base de datos de MySQL
+client = mysql.connect(
+    host="localhost",
+    user="root",
+    passwd="password",
+    database="tienda"
+)
 
 # TODO: Recupera la base de datos `tienda`
+cursor = client.cursor()
 
 # TODO: Recupera la tabla `tienda.frutas`
 
 # TODO: Recupera la tabla `tienda.ventas`
 
 def obtenerFrutas():
-    pass
+    # pass
     # TODO: Recorrer cada fruta de la tabla `tienda.frutas`
     
     # TODO: hacer un yield sobre fruta["nombre"], fruta["precio"]
 
+    cursor.execute("SELECT * FROM frutas")
+
+    for fruta in cursor.fetchall():
+        yield fruta["nombre"], fruta["precio"]
+
 def agregarFruta(nombre, precio):
-    pass
+    # pass
     # TODO: Hacer un INSERT en la tabla `tienda.frutas` con { "nombre": nombre, "precio": precio }
+    cursor.execute("INSERT INTO frutas (nombre, precio) VALUES ('{}', {})".format(nombre, precio))
+
+    client.commit()
 
 def buscarFruta(nombre):
     # TODO: Recupera el documento con la fruta de nombre `nombre` en la tabla `tienda.frutas`
 
+    cursor.execute("SELECT * FROM frutas WHERE nombre='{}'".format(nombre))
+
     # TODO: Si el documento es None regresa None
 
-    fruta = {} # SUSTITUIR POR EL OBTENIDO
+    fruta = cursor.fetchone()
 
     # Regresa el documento nombre y precio de la fruta
     return {
